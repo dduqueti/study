@@ -15,5 +15,6 @@ def sum element
 	end
 end
 
+
 sum ['a', 2, 4, ['1', 5, 'b', [2,3, ['a', 4, [1,'b',[5,'a']]]]]]
 puts "La suma total es: #{$total}"
