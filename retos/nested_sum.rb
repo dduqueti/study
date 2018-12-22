@@ -1,19 +1,19 @@
 $total = 0
 
 def sum array
-	for element in array
-		sum element
-	end
+  for element in array
+    sum element
+  end
 end
 
 def sum element
-	if element.kind_of?(Array)
-		for inner_element in element
-			sum inner_element
-		end
-	elsif element.is_a? Numeric
-		$total += element
-	end
+  if element.kind_of?(Array)
+    for inner_element in element
+      sum inner_element
+    end
+  elsif element.is_a? Numeric
+    $total += element
+  end
 end
 
 
