@@ -1,4 +1,5 @@
 $total = 0
+
 def sum array
 	for element in array
 		sum element
