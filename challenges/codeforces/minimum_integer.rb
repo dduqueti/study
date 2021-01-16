@@ -33,8 +33,6 @@
 # 3
 # 10
 
-MAX_NUMBER = 1_000_000_000
-
 def minimum_integer(queries)
   queries.each do |query|
     query = query.split(' ')
@@ -45,27 +43,7 @@ def minimum_integer(queries)
     high = query[1].to_i
     div  = query.last.to_i
 
-    min_int = 0
-
-    if low > 1
-      for i in (1..(low - 1)) do
-        if i % div == 0
-          min_int = i
-          break
-        end
-      end
-    end
-
-    if min_int == 0
-      for i in ((high + 1)..Float::INFINITY) do
-        if i % div == 0
-          min_int = i
-          break
-        end
-      end
-    end
-
-    puts min_int.to_i
+    puts div < low ? div : high + (div - (high % div))
   end
 
   return nil

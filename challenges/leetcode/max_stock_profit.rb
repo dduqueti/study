@@ -19,9 +19,9 @@ def max_profit(prices)
       end
     end
 
-    puts profit
+    return profit
 end
 
-max_profit([7,1,5,3,6,4])
-max_profit([7,6,4,3,1])
-max_profit([2,4,1])
+puts max_profit([7,1,5,3,6,4])
+puts max_profit([7,6,4,3,1])
+puts max_profit([2,4,1])
