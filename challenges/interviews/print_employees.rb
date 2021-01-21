@@ -112,3 +112,6 @@ end
 company = Company.new(test_input)
 company.print_structure
 
+# OUTCOME
+# Couldn't finish the recursion but got close
+
