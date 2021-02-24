@@ -1,0 +1,35 @@
+[
+  {
+     "newReferenceId":"932579ee-ff62-4a5c-a9cc-c0733613a263",
+     "inputData":{
+        "token":"938be515-4a12-4101-983c-7e8017f405e9",
+        "foreignToken":"2a9296eb-aa50-4b06-85df-646fac58029a",
+        "customer":{
+           "identification":"100001",
+           "email":"example1@example.de"
+        }
+     }
+  },
+  {
+     "newReferenceId":"6ec6288c-b5ba-42aa-a870-afe66557f22e",
+     "inputData":{
+        "token":"9d3f1e3f-18b7-4d5c-991d-c6f852099ab0",
+        "foreignToken":"df70457a-2194-4027-a18e-a60ffd66573d",
+        "customer":{
+           "identification":"100002",
+           "email":"example2@example.de"
+        }
+     }
+  },
+  {
+     "newReferenceId":"fc7d3d90-adf9-4060-a4f9-e769d27afa39",
+     "inputData":{
+        "token":"522ef425-d49f-4022-91d4-7ecea5f34c85",
+        "foreignToken":"e237159b-063f-4fe9-81ff-b27b21ea08fa",
+        "customer":{
+           "identification":"100003",
+           "email":"example3@example.de"
+        }
+     }
+  }
+]
